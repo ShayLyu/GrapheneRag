@@ -3,7 +3,7 @@ main_html = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>阿里云本地RAG解决方案</title>
+    <title>粤孵智库RAG解决方案</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
         body {
@@ -67,7 +67,7 @@ main_html = """<!DOCTYPE html>
 </head>
 <body>
     <header>
-        <h1>阿里云本地RAG解决方案</h1>
+        <h1>粤孵智库本地RAG解决方案</h1>
     </header>
     <main>
         <p>如果您需要基于上传的文档与模型直接对话，请直接访问<a href="/chat">RAG问答</a>，并在输入框位置上传文件，就可以开始对话了。（此次上传的数据在页面刷新后无法保留，若您希望可以持久使用、维护知识库，请创建知识库）。</p>
