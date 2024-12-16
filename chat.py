@@ -42,7 +42,7 @@ def get_model_response(
         chunk_cnt
 ):
     # 在函数内部调用update_global_params将传入的参数写回全局变量
-    update_global_params(model, temperature, max_tokens, history_round, db_name, similarity_threshold, chunk_cnt)
+    update_global_params(model, temperature, max_tokens,history_round, db_name, similarity_threshold, chunk_cnt)
 
     # prompt为用户最新的一条对话
     prompt = history[-1][0]
